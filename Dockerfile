@@ -14,7 +14,6 @@ RUN bash -c 'echo -e "N\n\n" | ./mcl'
 
 RUN ./mcl --dry-run
 RUN ./mcl --update-package net.mamoe:mirai-api-http --channel stable --type plugin
-RUN ./mcl --dry-run
 
 ADD docker-entrypoint.sh .
 
